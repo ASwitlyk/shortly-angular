@@ -20,7 +20,7 @@ angular.module('shortly.services', [])
       data: url
     }).then(function(response) {
       console.log(response);
-    })
+    });
   };
 
 
