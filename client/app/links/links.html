@@ -1,3 +1,12 @@
 <div id='container'>
   <!-- Your html here -->
+  <div class="navigation"><ul><li><a href="#/links">links</a></li><li><a href="#/shorten">shorten</a></li></ul></div>
+  <div ng-controller="LinksController" class="links">
+  <h1>Links</h1>
+  <h2>{{data.links}}</h2>
+    <ul ng-repeat="item in data.links">
+    <li>{{item.url}}</li>
+    </ul>
+  </div>
+
 </div>
