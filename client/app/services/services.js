@@ -23,15 +23,9 @@ angular.module('shortly.services', [])
     });
   };
 
-
-    // .success(function(data) {
-    //   return data;
-    // }).error(function(err) {
-    //   console.log('Error is: ', err);
-    // });
     return {
       getLinks: getLinks,
-      addLink: addLink
+      addLink: addLink,
     };
 
 })

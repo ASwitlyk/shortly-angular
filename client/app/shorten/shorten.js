@@ -11,4 +11,6 @@ angular.module('shortly.shorten', [])
     });
   };
 
+  $scope.link.notValid = true;
+
 });
